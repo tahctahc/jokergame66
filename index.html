@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
+    />
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+
+    <title>Joker168PR</title>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="http://www.joker123.net/Themes/Joker/Images/favicon.ico"
+    />
+  </head>
+
+  <body id="body">
+    <section id="profile">
+      <img
+        id="pictureUrl"
+        src="http://www.joker123.net/Themes/Joker/Images/logo/logo.png"
+      />
+    </section>
+
+    <form
+      action="http://www.joker123.net/SignIn"
+      id="form_login"
+      method="post"
+      novalidate="novalidate"
+    >
+      <div class="">
+        <input
+          id="Username"
+          name="Username"
+          placeholder="ชื่อผู้ใช้"
+          type="text"
+          value=""
+        />
+      </div>
+      <div class="">
+        <input
+          id="Password"
+          name="Password"
+          placeholder="รหัสผ่าน"
+          type="password"
+        />
+      </div>
+      <div class="">
+        <input id="Action" name="Action" type="hidden" value="GameIndex" />
+        <input id="GameCode" name="GameCode" type="hidden" value="" />
+        <input
+          type="submit"
+          onclick="window.app.beforeLogin()"
+          value="เข้าสู่ระบบ"
+        />
+      </div>
+    </form>
+  </body>
+</html>
